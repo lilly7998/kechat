@@ -16,7 +16,7 @@ from passlib.context import CryptContext
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
-from database import init_db, SessionLocal, User, Message, Conversation
+from .database import init_db, SessionLocal, User, Message, Conversation
 import uvicorn
 
 # ── 配置 ──
